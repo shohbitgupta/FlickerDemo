@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A03F73F21F6579600764CEC /* FlickerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A03F73E21F6579600764CEC /* FlickerData.json */; };
+		8A03F74221F657D400764CEC /* FlickerDataList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A03F74121F657D400764CEC /* FlickerDataList.json */; };
+		8A03F74421F6582200764CEC /* FlickerModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F74321F6582200764CEC /* FlickerModelTest.swift */; };
+		8A03F74721F6594C00764CEC /* FLHomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F74621F6594C00764CEC /* FLHomePresenterTest.swift */; };
+		8A03F74A21F6650A00764CEC /* FLHomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F74921F6650A00764CEC /* FLHomeInteractorTest.swift */; };
+		8A03F74D21F6657600764CEC /* MockClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F74C21F6657600764CEC /* MockClasses.swift */; };
+		8A03F75021F66D7D00764CEC /* FLHomeRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F74F21F66D7D00764CEC /* FLHomeRouterTest.swift */; };
+		8A03F75421F6715200764CEC /* FLSessionManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F75321F6715200764CEC /* FLSessionManagerTest.swift */; };
+		8A03F75621F6716700764CEC /* FLWebServiceManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F75521F6716700764CEC /* FLWebServiceManagerTest.swift */; };
+		8A03F75921F726E900764CEC /* FLImageDownloaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03F75821F726E900764CEC /* FLImageDownloaderTest.swift */; };
+		8A43E31A21F76CDC0015D275 /* FLDataErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E31921F76CDC0015D275 /* FLDataErrorTest.swift */; };
+		8A43E31D21F76E2E0015D275 /* FLHomeCollectionCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E31C21F76E2E0015D275 /* FLHomeCollectionCellTest.swift */; };
+		8A43E32021F78F810015D275 /* FLImageCacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E31F21F78F810015D275 /* FLImageCacheTest.swift */; };
+		8A43E32321F79A8B0015D275 /* FLWebServiceObjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E32221F79A8B0015D275 /* FLWebServiceObjectTest.swift */; };
+		8A43E32B21F7B7FB0015D275 /* FlickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E32A21F7B7FB0015D275 /* FlickerUITests.swift */; };
+		8A43E33421F7BF8C0015D275 /* FLViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43E33321F7BF8C0015D275 /* FLViewControllerTest.swift */; };
+		8A7F231521F4C32600E8A58D /* FLImageCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231421F4C32600E8A58D /* FLImageCacheProtocol.swift */; };
+		8A7F231721F4C37100E8A58D /* FLImageDownloaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231621F4C37100E8A58D /* FLImageDownloaderProtocol.swift */; };
+		8A7F231921F4C3EB00E8A58D /* FLImageDownloadTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231821F4C3EB00E8A58D /* FLImageDownloadTaskProtocol.swift */; };
+		8A7F231B21F4C44D00E8A58D /* FLImageTaskHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231A21F4C44D00E8A58D /* FLImageTaskHandlerProtocol.swift */; };
+		8A7F231E21F4C65300E8A58D /* FLURLSessionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231D21F4C65300E8A58D /* FLURLSessionManagerProtocol.swift */; };
+		8A7F232021F4C89700E8A58D /* FLWebServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F231F21F4C89700E8A58D /* FLWebServiceObject.swift */; };
+		8A7F232221F4C8AB00E8A58D /* FLWebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F232121F4C8AB00E8A58D /* FLWebServiceHandler.swift */; };
+		8A7F232421F4C8CB00E8A58D /* FLWebServiceObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F232321F4C8CB00E8A58D /* FLWebServiceObjectProtocol.swift */; };
+		8A7F232621F4C8DC00E8A58D /* FLWebServiceHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F232521F4C8DC00E8A58D /* FLWebServiceHandlerProtocol.swift */; };
+		8A7F232821F4F46100E8A58D /* FLImageDownloadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F232721F4F46100E8A58D /* FLImageDownloadStatus.swift */; };
+		8A7F232A21F4F55B00E8A58D /* FLImageDownloadStatusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F232921F4F55B00E8A58D /* FLImageDownloadStatusProtocol.swift */; };
+		8AEABFDF21F39B0F005AC005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEABFDE21F39B0F005AC005 /* AppDelegate.swift */; };
+		8AEABFE121F39B0F005AC005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEABFE021F39B0F005AC005 /* ViewController.swift */; };
+		8AEABFE421F39B0F005AC005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEABFE221F39B0F005AC005 /* Main.storyboard */; };
+		8AEABFE621F39B11005AC005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEABFE521F39B11005AC005 /* Assets.xcassets */; };
+		8AEABFE921F39B11005AC005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEABFE721F39B11005AC005 /* LaunchScreen.storyboard */; };
+		8AEAC00521F39C81005AC005 /* FLWebEngineDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC00021F39C80005AC005 /* FLWebEngineDataDownloader.swift */; };
+		8AEAC00621F39C81005AC005 /* FLWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC00221F39C80005AC005 /* FLWebServiceManager.swift */; };
+		8AEAC00721F39C81005AC005 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC00421F39C80005AC005 /* DataError.swift */; };
+		8AEAC00A21F39CBD005AC005 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC00921F39CBD005AC005 /* Constants.swift */; };
+		8AEAC01421F3A0E9005AC005 /* FLHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01321F3A0E9005AC005 /* FLHomeInteractor.swift */; };
+		8AEAC01621F3A105005AC005 /* FLHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01521F3A105005AC005 /* FLHomePresenter.swift */; };
+		8AEAC01821F3A128005AC005 /* FLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01721F3A128005AC005 /* FLModel.swift */; };
+		8AEAC01A21F3A148005AC005 /* FLHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01921F3A148005AC005 /* FLHomeRouter.swift */; };
+		8AEAC01C21F3A2A6005AC005 /* FLHomePresenterInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01B21F3A2A6005AC005 /* FLHomePresenterInputProtocol.swift */; };
+		8AEAC01E21F3A2C1005AC005 /* FLHomePresenterOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01D21F3A2C1005AC005 /* FLHomePresenterOutputProtocol.swift */; };
+		8AEAC02021F3A31C005AC005 /* FLHomeInteratorInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC01F21F3A31C005AC005 /* FLHomeInteratorInputProtocol.swift */; };
+		8AEAC02221F3A32B005AC005 /* FLHomeInteratorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02121F3A32B005AC005 /* FLHomeInteratorOutputProtocol.swift */; };
+		8AEAC02421F3A368005AC005 /* FLHomeRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02321F3A368005AC005 /* FLHomeRouterProtocol.swift */; };
+		8AEAC02621F3A854005AC005 /* DataInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02521F3A854005AC005 /* DataInitializer.swift */; };
+		8AEAC02821F3A867005AC005 /* FLDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02721F3A867005AC005 /* FLDataProtocol.swift */; };
+		8AEAC02B21F3B1FC005AC005 /* DataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02A21F3B1FC005AC005 /* DataBuilder.swift */; };
+		8AEAC02E21F3C7E4005AC005 /* FLHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC02C21F3C7E4005AC005 /* FLHomeCollectionViewCell.swift */; };
+		8AEAC02F21F3C7E4005AC005 /* FLHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AEAC02D21F3C7E4005AC005 /* FLHomeCollectionViewCell.xib */; };
+		8AEAC03221F3CB4E005AC005 /* CellUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03121F3CB4E005AC005 /* CellUpdateProtocol.swift */; };
+		8AEAC03521F3E031005AC005 /* FLImageCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03421F3E031005AC005 /* FLImageCaching.swift */; };
+		8AEAC03721F3E3E1005AC005 /* FLImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03621F3E3E1005AC005 /* FLImageDownloader.swift */; };
+		8AEAC03A21F3E6E6005AC005 /* FLURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03921F3E6E6005AC005 /* FLURLSessionManager.swift */; };
+		8AEAC03C21F44CFE005AC005 /* FLImageDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03B21F44CFE005AC005 /* FLImageDownloadTask.swift */; };
+		8AEAC03E21F44E7E005AC005 /* FLImageTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEAC03D21F44E7E005AC005 /* FLImageTaskHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A43E32D21F7B7FB0015D275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEABFD321F39B0F005AC005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEABFDA21F39B0F005AC005;
+			remoteInfo = Flicker;
+		};
+		8AEABFF021F39B11005AC005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEABFD321F39B0F005AC005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEABFDA21F39B0F005AC005;
+			remoteInfo = Flicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A03F73E21F6579600764CEC /* FlickerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlickerData.json; sourceTree = "<group>"; };
+		8A03F74121F657D400764CEC /* FlickerDataList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlickerDataList.json; sourceTree = "<group>"; };
+		8A03F74321F6582200764CEC /* FlickerModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerModelTest.swift; sourceTree = "<group>"; };
+		8A03F74621F6594C00764CEC /* FLHomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomePresenterTest.swift; sourceTree = "<group>"; };
+		8A03F74921F6650A00764CEC /* FLHomeInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeInteractorTest.swift; sourceTree = "<group>"; };
+		8A03F74C21F6657600764CEC /* MockClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClasses.swift; sourceTree = "<group>"; };
+		8A03F74F21F66D7D00764CEC /* FLHomeRouterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeRouterTest.swift; sourceTree = "<group>"; };
+		8A03F75321F6715200764CEC /* FLSessionManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSessionManagerTest.swift; sourceTree = "<group>"; };
+		8A03F75521F6716700764CEC /* FLWebServiceManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceManagerTest.swift; sourceTree = "<group>"; };
+		8A03F75821F726E900764CEC /* FLImageDownloaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloaderTest.swift; sourceTree = "<group>"; };
+		8A43E31921F76CDC0015D275 /* FLDataErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLDataErrorTest.swift; sourceTree = "<group>"; };
+		8A43E31C21F76E2E0015D275 /* FLHomeCollectionCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeCollectionCellTest.swift; sourceTree = "<group>"; };
+		8A43E31F21F78F810015D275 /* FLImageCacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageCacheTest.swift; sourceTree = "<group>"; };
+		8A43E32221F79A8B0015D275 /* FLWebServiceObjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceObjectTest.swift; sourceTree = "<group>"; };
+		8A43E32821F7B7FA0015D275 /* FlickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A43E32A21F7B7FB0015D275 /* FlickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerUITests.swift; sourceTree = "<group>"; };
+		8A43E32C21F7B7FB0015D275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A43E33321F7BF8C0015D275 /* FLViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLViewControllerTest.swift; sourceTree = "<group>"; };
+		8A7F231421F4C32600E8A58D /* FLImageCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageCacheProtocol.swift; sourceTree = "<group>"; };
+		8A7F231621F4C37100E8A58D /* FLImageDownloaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloaderProtocol.swift; sourceTree = "<group>"; };
+		8A7F231821F4C3EB00E8A58D /* FLImageDownloadTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloadTaskProtocol.swift; sourceTree = "<group>"; };
+		8A7F231A21F4C44D00E8A58D /* FLImageTaskHandlerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageTaskHandlerProtocol.swift; sourceTree = "<group>"; };
+		8A7F231D21F4C65300E8A58D /* FLURLSessionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLURLSessionManagerProtocol.swift; sourceTree = "<group>"; };
+		8A7F231F21F4C89700E8A58D /* FLWebServiceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceObject.swift; sourceTree = "<group>"; };
+		8A7F232121F4C8AB00E8A58D /* FLWebServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceHandler.swift; sourceTree = "<group>"; };
+		8A7F232321F4C8CB00E8A58D /* FLWebServiceObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceObjectProtocol.swift; sourceTree = "<group>"; };
+		8A7F232521F4C8DC00E8A58D /* FLWebServiceHandlerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWebServiceHandlerProtocol.swift; sourceTree = "<group>"; };
+		8A7F232721F4F46100E8A58D /* FLImageDownloadStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloadStatus.swift; sourceTree = "<group>"; };
+		8A7F232921F4F55B00E8A58D /* FLImageDownloadStatusProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloadStatusProtocol.swift; sourceTree = "<group>"; };
+		8AEABFDB21F39B0F005AC005 /* Flicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEABFDE21F39B0F005AC005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AEABFE021F39B0F005AC005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AEABFE321F39B0F005AC005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AEABFE521F39B11005AC005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AEABFE821F39B11005AC005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AEABFEA21F39B11005AC005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEABFEF21F39B11005AC005 /* FlickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEABFF521F39B11005AC005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEAC00021F39C80005AC005 /* FLWebEngineDataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWebEngineDataDownloader.swift; sourceTree = "<group>"; };
+		8AEAC00221F39C80005AC005 /* FLWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWebServiceManager.swift; sourceTree = "<group>"; };
+		8AEAC00421F39C80005AC005 /* DataError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		8AEAC00921F39CBD005AC005 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8AEAC01321F3A0E9005AC005 /* FLHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeInteractor.swift; sourceTree = "<group>"; };
+		8AEAC01521F3A105005AC005 /* FLHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomePresenter.swift; sourceTree = "<group>"; };
+		8AEAC01721F3A128005AC005 /* FLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLModel.swift; sourceTree = "<group>"; };
+		8AEAC01921F3A148005AC005 /* FLHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeRouter.swift; sourceTree = "<group>"; };
+		8AEAC01B21F3A2A6005AC005 /* FLHomePresenterInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomePresenterInputProtocol.swift; sourceTree = "<group>"; };
+		8AEAC01D21F3A2C1005AC005 /* FLHomePresenterOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomePresenterOutputProtocol.swift; sourceTree = "<group>"; };
+		8AEAC01F21F3A31C005AC005 /* FLHomeInteratorInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeInteratorInputProtocol.swift; sourceTree = "<group>"; };
+		8AEAC02121F3A32B005AC005 /* FLHomeInteratorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeInteratorOutputProtocol.swift; sourceTree = "<group>"; };
+		8AEAC02321F3A368005AC005 /* FLHomeRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeRouterProtocol.swift; sourceTree = "<group>"; };
+		8AEAC02521F3A854005AC005 /* DataInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInitializer.swift; sourceTree = "<group>"; };
+		8AEAC02721F3A867005AC005 /* FLDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLDataProtocol.swift; sourceTree = "<group>"; };
+		8AEAC02A21F3B1FC005AC005 /* DataBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBuilder.swift; sourceTree = "<group>"; };
+		8AEAC02C21F3C7E4005AC005 /* FLHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8AEAC02D21F3C7E4005AC005 /* FLHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		8AEAC03121F3CB4E005AC005 /* CellUpdateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellUpdateProtocol.swift; sourceTree = "<group>"; };
+		8AEAC03421F3E031005AC005 /* FLImageCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageCaching.swift; sourceTree = "<group>"; };
+		8AEAC03621F3E3E1005AC005 /* FLImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloader.swift; sourceTree = "<group>"; };
+		8AEAC03921F3E6E6005AC005 /* FLURLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLURLSessionManager.swift; sourceTree = "<group>"; };
+		8AEAC03B21F44CFE005AC005 /* FLImageDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageDownloadTask.swift; sourceTree = "<group>"; };
+		8AEAC03D21F44E7E005AC005 /* FLImageTaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImageTaskHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A43E32521F7B7FA0015D275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFD821F39B0F005AC005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFEC21F39B11005AC005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A03F73D21F6577800764CEC /* FlickerModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F73E21F6579600764CEC /* FlickerData.json */,
+				8A03F74321F6582200764CEC /* FlickerModelTest.swift */,
+			);
+			path = FlickerModel;
+			sourceTree = "<group>";
+		};
+		8A03F74021F657AB00764CEC /* FlickerDataList */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F74121F657D400764CEC /* FlickerDataList.json */,
+			);
+			path = FlickerDataList;
+			sourceTree = "<group>";
+		};
+		8A03F74521F6592800764CEC /* HomePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F74621F6594C00764CEC /* FLHomePresenterTest.swift */,
+			);
+			path = HomePresenter;
+			sourceTree = "<group>";
+		};
+		8A03F74821F664F000764CEC /* HomeInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F74921F6650A00764CEC /* FLHomeInteractorTest.swift */,
+			);
+			path = HomeInteractor;
+			sourceTree = "<group>";
+		};
+		8A03F74B21F6655C00764CEC /* SupportingMocks */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F74C21F6657600764CEC /* MockClasses.swift */,
+			);
+			path = SupportingMocks;
+			sourceTree = "<group>";
+		};
+		8A03F74E21F66D5800764CEC /* HomeRouter */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F74F21F66D7D00764CEC /* FLHomeRouterTest.swift */,
+			);
+			path = HomeRouter;
+			sourceTree = "<group>";
+		};
+		8A03F75121F6713400764CEC /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F75321F6715200764CEC /* FLSessionManagerTest.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		8A03F75221F6713C00764CEC /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F75521F6716700764CEC /* FLWebServiceManagerTest.swift */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		8A03F75721F726C400764CEC /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				8A03F75821F726E900764CEC /* FLImageDownloaderTest.swift */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		8A43E31821F76CBF0015D275 /* ErrorModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E31921F76CDC0015D275 /* FLDataErrorTest.swift */,
+			);
+			path = ErrorModel;
+			sourceTree = "<group>";
+		};
+		8A43E31B21F76E110015D275 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E31C21F76E2E0015D275 /* FLHomeCollectionCellTest.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		8A43E31E21F78F5B0015D275 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E31F21F78F810015D275 /* FLImageCacheTest.swift */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		8A43E32121F79A6F0015D275 /* WebServiceObject */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E32221F79A8B0015D275 /* FLWebServiceObjectTest.swift */,
+			);
+			path = WebServiceObject;
+			sourceTree = "<group>";
+		};
+		8A43E32921F7B7FB0015D275 /* FlickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E32A21F7B7FB0015D275 /* FlickerUITests.swift */,
+				8A43E32C21F7B7FB0015D275 /* Info.plist */,
+			);
+			path = FlickerUITests;
+			sourceTree = "<group>";
+		};
+		8A43E33221F7BF740015D275 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E33321F7BF8C0015D275 /* FLViewControllerTest.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A43E33521F7CC200015D275 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03421F3E031005AC005 /* FLImageCaching.swift */,
+				8A7F231421F4C32600E8A58D /* FLImageCacheProtocol.swift */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+		8A43E33621F7CC490015D275 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03621F3E3E1005AC005 /* FLImageDownloader.swift */,
+				8AEAC03B21F44CFE005AC005 /* FLImageDownloadTask.swift */,
+				8AEAC03D21F44E7E005AC005 /* FLImageTaskHandler.swift */,
+				8A7F231621F4C37100E8A58D /* FLImageDownloaderProtocol.swift */,
+				8A7F231821F4C3EB00E8A58D /* FLImageDownloadTaskProtocol.swift */,
+				8A7F231A21F4C44D00E8A58D /* FLImageTaskHandlerProtocol.swift */,
+				8A7F232721F4F46100E8A58D /* FLImageDownloadStatus.swift */,
+				8A7F232921F4F55B00E8A58D /* FLImageDownloadStatusProtocol.swift */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		8AEABFD221F39B0F005AC005 = {
+			isa = PBXGroup;
+			children = (
+				8AEABFDD21F39B0F005AC005 /* Flicker */,
+				8AEABFF221F39B11005AC005 /* FlickerTests */,
+				8A43E32921F7B7FB0015D275 /* FlickerUITests */,
+				8AEABFDC21F39B0F005AC005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEABFDC21F39B0F005AC005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEABFDB21F39B0F005AC005 /* Flicker.app */,
+				8AEABFEF21F39B11005AC005 /* FlickerTests.xctest */,
+				8A43E32821F7B7FA0015D275 /* FlickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEABFDD21F39B0F005AC005 /* Flicker */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC00821F39CBD005AC005 /* Constants */,
+				8AEABFFE21F39C80005AC005 /* Network */,
+				8AEAC03321F3D7C6005AC005 /* ImageCaching */,
+				8AEAC02921F3B1FC005AC005 /* DataBuilder */,
+				8AEAC00B21F39EC8005AC005 /* Home */,
+				8AEABFDE21F39B0F005AC005 /* AppDelegate.swift */,
+				8AEABFE221F39B0F005AC005 /* Main.storyboard */,
+				8AEABFE521F39B11005AC005 /* Assets.xcassets */,
+				8AEABFE721F39B11005AC005 /* LaunchScreen.storyboard */,
+				8AEABFEA21F39B11005AC005 /* Info.plist */,
+			);
+			path = Flicker;
+			sourceTree = "<group>";
+		};
+		8AEABFF221F39B11005AC005 /* FlickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E33221F7BF740015D275 /* Controller */,
+				8A43E32121F79A6F0015D275 /* WebServiceObject */,
+				8A43E31E21F78F5B0015D275 /* ImageCache */,
+				8A43E31B21F76E110015D275 /* HomeCell */,
+				8A43E31821F76CBF0015D275 /* ErrorModel */,
+				8A03F75721F726C400764CEC /* ImageDownloader */,
+				8A03F75221F6713C00764CEC /* WebServiceManager */,
+				8A03F75121F6713400764CEC /* SessionManager */,
+				8A03F74E21F66D5800764CEC /* HomeRouter */,
+				8A03F74B21F6655C00764CEC /* SupportingMocks */,
+				8A03F74821F664F000764CEC /* HomeInteractor */,
+				8A03F74521F6592800764CEC /* HomePresenter */,
+				8A03F74021F657AB00764CEC /* FlickerDataList */,
+				8A03F73D21F6577800764CEC /* FlickerModel */,
+				8AEABFF521F39B11005AC005 /* Info.plist */,
+			);
+			path = FlickerTests;
+			sourceTree = "<group>";
+		};
+		8AEABFFE21F39C80005AC005 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03821F3E6C6005AC005 /* SessionManager */,
+				8AEAC00121F39C80005AC005 /* Manager */,
+				8AEAC00321F39C80005AC005 /* Error */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8AEAC00121F39C80005AC005 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC00021F39C80005AC005 /* FLWebEngineDataDownloader.swift */,
+				8AEAC00221F39C80005AC005 /* FLWebServiceManager.swift */,
+				8A7F231F21F4C89700E8A58D /* FLWebServiceObject.swift */,
+				8A7F232121F4C8AB00E8A58D /* FLWebServiceHandler.swift */,
+				8A7F232321F4C8CB00E8A58D /* FLWebServiceObjectProtocol.swift */,
+				8A7F232521F4C8DC00E8A58D /* FLWebServiceHandlerProtocol.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8AEAC00321F39C80005AC005 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC00421F39C80005AC005 /* DataError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		8AEAC00821F39CBD005AC005 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC00921F39CBD005AC005 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8AEAC00B21F39EC8005AC005 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC01021F39F95005AC005 /* Router */,
+				8AEAC00F21F39F7E005AC005 /* Entity */,
+				8AEAC00E21F39EF8005AC005 /* Presenter */,
+				8AEAC00D21F39EEC005AC005 /* Interactor */,
+				8AEAC00C21F39EE1005AC005 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8AEAC00C21F39EE1005AC005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03021F3CB4E005AC005 /* CellProtocol */,
+				8AEAC01221F39FEB005AC005 /* Cell */,
+				8AEAC01121F39FD4005AC005 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AEAC00D21F39EEC005AC005 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC01321F3A0E9005AC005 /* FLHomeInteractor.swift */,
+				8AEAC01F21F3A31C005AC005 /* FLHomeInteratorInputProtocol.swift */,
+				8AEAC02121F3A32B005AC005 /* FLHomeInteratorOutputProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8AEAC00E21F39EF8005AC005 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC01521F3A105005AC005 /* FLHomePresenter.swift */,
+				8AEAC01B21F3A2A6005AC005 /* FLHomePresenterInputProtocol.swift */,
+				8AEAC01D21F3A2C1005AC005 /* FLHomePresenterOutputProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8AEAC00F21F39F7E005AC005 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC02521F3A854005AC005 /* DataInitializer.swift */,
+				8AEAC01721F3A128005AC005 /* FLModel.swift */,
+				8AEAC02721F3A867005AC005 /* FLDataProtocol.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8AEAC01021F39F95005AC005 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC01921F3A148005AC005 /* FLHomeRouter.swift */,
+				8AEAC02321F3A368005AC005 /* FLHomeRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8AEAC01121F39FD4005AC005 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AEABFE021F39B0F005AC005 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AEAC01221F39FEB005AC005 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC02C21F3C7E4005AC005 /* FLHomeCollectionViewCell.swift */,
+				8AEAC02D21F3C7E4005AC005 /* FLHomeCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8AEAC02921F3B1FC005AC005 /* DataBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC02A21F3B1FC005AC005 /* DataBuilder.swift */,
+			);
+			path = DataBuilder;
+			sourceTree = "<group>";
+		};
+		8AEAC03021F3CB4E005AC005 /* CellProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03121F3CB4E005AC005 /* CellUpdateProtocol.swift */,
+			);
+			path = CellProtocol;
+			sourceTree = "<group>";
+		};
+		8AEAC03321F3D7C6005AC005 /* ImageCaching */ = {
+			isa = PBXGroup;
+			children = (
+				8A43E33621F7CC490015D275 /* Downloader */,
+				8A43E33521F7CC200015D275 /* Caching */,
+			);
+			path = ImageCaching;
+			sourceTree = "<group>";
+		};
+		8AEAC03821F3E6C6005AC005 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				8AEAC03921F3E6E6005AC005 /* FLURLSessionManager.swift */,
+				8A7F231D21F4C65300E8A58D /* FLURLSessionManagerProtocol.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A43E32721F7B7FA0015D275 /* FlickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A43E32F21F7B7FB0015D275 /* Build configuration list for PBXNativeTarget "FlickerUITests" */;
+			buildPhases = (
+				8A43E32421F7B7FA0015D275 /* Sources */,
+				8A43E32521F7B7FA0015D275 /* Frameworks */,
+				8A43E32621F7B7FA0015D275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A43E32E21F7B7FB0015D275 /* PBXTargetDependency */,
+			);
+			name = FlickerUITests;
+			productName = FlickerUITests;
+			productReference = 8A43E32821F7B7FA0015D275 /* FlickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8AEABFDA21F39B0F005AC005 /* Flicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEABFF821F39B11005AC005 /* Build configuration list for PBXNativeTarget "Flicker" */;
+			buildPhases = (
+				8AEABFD721F39B0F005AC005 /* Sources */,
+				8AEABFD821F39B0F005AC005 /* Frameworks */,
+				8AEABFD921F39B0F005AC005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flicker;
+			productName = Flicker;
+			productReference = 8AEABFDB21F39B0F005AC005 /* Flicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AEABFEE21F39B11005AC005 /* FlickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEABFFB21F39B11005AC005 /* Build configuration list for PBXNativeTarget "FlickerTests" */;
+			buildPhases = (
+				8AEABFEB21F39B11005AC005 /* Sources */,
+				8AEABFEC21F39B11005AC005 /* Frameworks */,
+				8AEABFED21F39B11005AC005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEABFF121F39B11005AC005 /* PBXTargetDependency */,
+			);
+			name = FlickerTests;
+			productName = FlickerTests;
+			productReference = 8AEABFEF21F39B11005AC005 /* FlickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEABFD321F39B0F005AC005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mine;
+				TargetAttributes = {
+					8A43E32721F7B7FA0015D275 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8AEABFDA21F39B0F005AC005;
+					};
+					8AEABFDA21F39B0F005AC005 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8AEABFEE21F39B11005AC005 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8AEABFDA21F39B0F005AC005;
+					};
+				};
+			};
+			buildConfigurationList = 8AEABFD621F39B0F005AC005 /* Build configuration list for PBXProject "Flicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEABFD221F39B0F005AC005;
+			productRefGroup = 8AEABFDC21F39B0F005AC005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEABFDA21F39B0F005AC005 /* Flicker */,
+				8AEABFEE21F39B11005AC005 /* FlickerTests */,
+				8A43E32721F7B7FA0015D275 /* FlickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A43E32621F7B7FA0015D275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFD921F39B0F005AC005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEABFE921F39B11005AC005 /* LaunchScreen.storyboard in Resources */,
+				8AEABFE621F39B11005AC005 /* Assets.xcassets in Resources */,
+				8AEABFE421F39B0F005AC005 /* Main.storyboard in Resources */,
+				8AEAC02F21F3C7E4005AC005 /* FLHomeCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFED21F39B11005AC005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A03F74221F657D400764CEC /* FlickerDataList.json in Resources */,
+				8A03F73F21F6579600764CEC /* FlickerData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A43E32421F7B7FA0015D275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A43E32B21F7B7FB0015D275 /* FlickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFD721F39B0F005AC005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEAC00721F39C81005AC005 /* DataError.swift in Sources */,
+				8AEAC00621F39C81005AC005 /* FLWebServiceManager.swift in Sources */,
+				8AEABFE121F39B0F005AC005 /* ViewController.swift in Sources */,
+				8AEAC02421F3A368005AC005 /* FLHomeRouterProtocol.swift in Sources */,
+				8A7F231521F4C32600E8A58D /* FLImageCacheProtocol.swift in Sources */,
+				8A7F232A21F4F55B00E8A58D /* FLImageDownloadStatusProtocol.swift in Sources */,
+				8AEAC03221F3CB4E005AC005 /* CellUpdateProtocol.swift in Sources */,
+				8AEAC01C21F3A2A6005AC005 /* FLHomePresenterInputProtocol.swift in Sources */,
+				8A7F231721F4C37100E8A58D /* FLImageDownloaderProtocol.swift in Sources */,
+				8AEAC03A21F3E6E6005AC005 /* FLURLSessionManager.swift in Sources */,
+				8A7F232021F4C89700E8A58D /* FLWebServiceObject.swift in Sources */,
+				8AEAC03721F3E3E1005AC005 /* FLImageDownloader.swift in Sources */,
+				8A7F231E21F4C65300E8A58D /* FLURLSessionManagerProtocol.swift in Sources */,
+				8AEAC01E21F3A2C1005AC005 /* FLHomePresenterOutputProtocol.swift in Sources */,
+				8AEAC01621F3A105005AC005 /* FLHomePresenter.swift in Sources */,
+				8AEAC01421F3A0E9005AC005 /* FLHomeInteractor.swift in Sources */,
+				8AEAC02E21F3C7E4005AC005 /* FLHomeCollectionViewCell.swift in Sources */,
+				8A7F231921F4C3EB00E8A58D /* FLImageDownloadTaskProtocol.swift in Sources */,
+				8AEAC00521F39C81005AC005 /* FLWebEngineDataDownloader.swift in Sources */,
+				8AEAC03521F3E031005AC005 /* FLImageCaching.swift in Sources */,
+				8A7F232621F4C8DC00E8A58D /* FLWebServiceHandlerProtocol.swift in Sources */,
+				8A7F232221F4C8AB00E8A58D /* FLWebServiceHandler.swift in Sources */,
+				8AEAC02B21F3B1FC005AC005 /* DataBuilder.swift in Sources */,
+				8AEAC02021F3A31C005AC005 /* FLHomeInteratorInputProtocol.swift in Sources */,
+				8AEAC01A21F3A148005AC005 /* FLHomeRouter.swift in Sources */,
+				8A7F232421F4C8CB00E8A58D /* FLWebServiceObjectProtocol.swift in Sources */,
+				8AEAC02221F3A32B005AC005 /* FLHomeInteratorOutputProtocol.swift in Sources */,
+				8AEAC01821F3A128005AC005 /* FLModel.swift in Sources */,
+				8AEABFDF21F39B0F005AC005 /* AppDelegate.swift in Sources */,
+				8AEAC03C21F44CFE005AC005 /* FLImageDownloadTask.swift in Sources */,
+				8AEAC03E21F44E7E005AC005 /* FLImageTaskHandler.swift in Sources */,
+				8AEAC02821F3A867005AC005 /* FLDataProtocol.swift in Sources */,
+				8A7F232821F4F46100E8A58D /* FLImageDownloadStatus.swift in Sources */,
+				8A7F231B21F4C44D00E8A58D /* FLImageTaskHandlerProtocol.swift in Sources */,
+				8AEAC02621F3A854005AC005 /* DataInitializer.swift in Sources */,
+				8AEAC00A21F39CBD005AC005 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEABFEB21F39B11005AC005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A43E33421F7BF8C0015D275 /* FLViewControllerTest.swift in Sources */,
+				8A03F75421F6715200764CEC /* FLSessionManagerTest.swift in Sources */,
+				8A43E32021F78F810015D275 /* FLImageCacheTest.swift in Sources */,
+				8A03F74421F6582200764CEC /* FlickerModelTest.swift in Sources */,
+				8A03F75921F726E900764CEC /* FLImageDownloaderTest.swift in Sources */,
+				8A03F75021F66D7D00764CEC /* FLHomeRouterTest.swift in Sources */,
+				8A43E31A21F76CDC0015D275 /* FLDataErrorTest.swift in Sources */,
+				8A03F74D21F6657600764CEC /* MockClasses.swift in Sources */,
+				8A03F75621F6716700764CEC /* FLWebServiceManagerTest.swift in Sources */,
+				8A03F74721F6594C00764CEC /* FLHomePresenterTest.swift in Sources */,
+				8A43E31D21F76E2E0015D275 /* FLHomeCollectionCellTest.swift in Sources */,
+				8A03F74A21F6650A00764CEC /* FLHomeInteractorTest.swift in Sources */,
+				8A43E32321F79A8B0015D275 /* FLWebServiceObjectTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A43E32E21F7B7FB0015D275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEABFDA21F39B0F005AC005 /* Flicker */;
+			targetProxy = 8A43E32D21F7B7FB0015D275 /* PBXContainerItemProxy */;
+		};
+		8AEABFF121F39B11005AC005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEABFDA21F39B0F005AC005 /* Flicker */;
+			targetProxy = 8AEABFF021F39B11005AC005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AEABFE221F39B0F005AC005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEABFE321F39B0F005AC005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEABFE721F39B11005AC005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEABFE821F39B11005AC005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A43E33021F7B7FB0015D275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.FlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flicker;
+			};
+			name = Debug;
+		};
+		8A43E33121F7B7FB0015D275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.FlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flicker;
+			};
+			name = Release;
+		};
+		8AEABFF621F39B11005AC005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AEABFF721F39B11005AC005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AEABFF921F39B11005AC005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.Flicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEABFFA21F39B11005AC005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Flicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.Flicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AEABFFC21F39B11005AC005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.FlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flicker.app/Flicker";
+			};
+			name = Debug;
+		};
+		8AEABFFD21F39B11005AC005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mine.FlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flicker.app/Flicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A43E32F21F7B7FB0015D275 /* Build configuration list for PBXNativeTarget "FlickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A43E33021F7B7FB0015D275 /* Debug */,
+				8A43E33121F7B7FB0015D275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEABFD621F39B0F005AC005 /* Build configuration list for PBXProject "Flicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEABFF621F39B11005AC005 /* Debug */,
+				8AEABFF721F39B11005AC005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEABFF821F39B11005AC005 /* Build configuration list for PBXNativeTarget "Flicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEABFF921F39B11005AC005 /* Debug */,
+				8AEABFFA21F39B11005AC005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEABFFB21F39B11005AC005 /* Build configuration list for PBXNativeTarget "FlickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEABFFC21F39B11005AC005 /* Debug */,
+				8AEABFFD21F39B11005AC005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEABFD321F39B0F005AC005 /* Project object */;
+}
